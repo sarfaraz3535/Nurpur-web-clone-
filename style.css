@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.nav-bar{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100px;
+    justify-content: space-evenly;
+}
+
+#logo-div{
+    /* border: 2px solid black; */
+    /* width: 150px;
+    height: 100px;
+    padding-left: 150px; */
+}
+#logo-pic{
+     /* border: 2px solid black; */
+    height:50px ;
+    width: 100px;
+    /* padding-left: 150px; */
+    padding-top: 25px;
+}
+#nav-list{
+    /* border: 2px solid black; */
+    display: flex;
+    list-style: none;
+    font-size: 17px;
+    padding-top: 30px;
+    /* padding-left: 100px; */
+    font-weight: 400;
+    gap: 50px;
+    cursor: pointer;
+    color: rgb(10, 84, 139);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#nav-list li:hover{
+    color: rgb(0, 153, 147);
+    border-radius: 100px;
+    border: 1px solid rgb(0,153,147);
+}
+
+#nav-opt{
+    /* border: 2px solid black; */
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+#nav-opt:hover{
+    border-radius: 100%;
+    background-color: #e3dede;
+}
+#div-video{
+    border: 5px solid red;
+    width: 100%;
+    height: 100%;
+}
